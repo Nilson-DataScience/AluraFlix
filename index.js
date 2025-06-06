@@ -1,4 +1,22 @@
-function geraRecomendação(idade){
+let campoIdade;
+let campoGenero;
+campoIdade = createInput("15")
+campoGenero = createCheckbox("Tipo de Filme")
+
+let idade = campoIdade.value()
+let genero = campoGenero.checked();
+
+  
+
+
+function gerarRecomendacao_genero(genero){
+  if(genero===true){
+    return"Tamo On, Tamo On"
+  }
+  
+}
+
+function geraRecomendacao(idade){
     var json_todos_filmes="todos"
     var livres= "lista infantil <=10"
     var ano14= "lista com filmes >=14"
@@ -22,4 +40,6 @@ function geraRecomendação(idade){
         }
     }
 }
-console.log(geraRecomendação(16))
+
+
+
