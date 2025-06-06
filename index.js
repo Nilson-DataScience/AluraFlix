@@ -1,3 +1,15 @@
+
+/*
+Passo a passo da implementação:
+
+1° - As variáveis `campoIdade` e `campoGenero` vão armazenar os valores fornecidos pelos inputs do HTML.
+
+2° - As funções `createInput` e `createCheckbox` serão substituídas por elementos de formulário (form tags) diretamente no HTML.
+
+3° - Precisarei analisar quais tipos primitivos de dados estão sendo armazenados nas variáveis `campoIdade` (provavelmente um número) e `campoGenero` (provavelmente uma string).
+*/
+
+
 let campoIdade;
 let campoGenero;
 campoIdade = createInput("15")
