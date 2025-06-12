@@ -1,3 +1,37 @@
+header{
+    background-color: rgba(205, 71, 93, 0.849);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 5px solid;
+    border-color:rgba(238, 37, 151, 0.822) ;
+}
+
+header nav{
+    display: inline;
+    position: relative;
+    left: 75%; 
+    bottom: 15px;  
+}
+
+h1{
+    position: relative;
+    font-family: "Arial";
+    font-size: 20px;
+    text-align: center;
+    left: 15px;
+    display: inline-block;
+}
+.menu_barbie{
+    background-color: rgba(238, 37, 151, 0.822);
+}
+
+.souumaprincesa{
+    display: inline-block;
+    position: relative;
+    left: 70%;
+}
+
+
 #barbie {
     position: static;
     width: 400px;
