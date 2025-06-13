@@ -5,6 +5,10 @@ header{
     border: 5px solid;
     border-color:rgba(212, 20, 20, 0.822) ;
 }
+header h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
 
 header nav{
     display: inline;
