@@ -4,6 +4,7 @@ header{
     padding-bottom: 40px;
     border: 5px solid;
     border-color:rgba(212, 20, 20, 0.822) ;
+    border-radius: 20px;
 }
 
 header nav{
