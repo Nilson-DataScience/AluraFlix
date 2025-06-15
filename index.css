@@ -1,40 +1,83 @@
-header{
-    background-color: rgba(205, 71, 93, 0.849);
+header {
+    background-color: #ff1493; 
     padding-top: 40px;
-    padding-bottom: 40px;
-    border: 5px solid;
-    border-color:rgba(212, 20, 20, 0.822) ;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
 }
+
 header h1 {
     font-size: 45px;
     font-family: 'Times New Roman';
+    color: #ffffff; 
 }
 
-header nav{
+header nav {
     display: inline;
     position: relative;
     left: 75%; 
     bottom: 15px;  
+    color: #ffea00; 
 }
 
 main h2 {
     font-size: 30px;
+    color: #ff69b4; 
 }
 
-.menu_barbie{
-    background-color: rgba(238, 37, 151, 0.455);
-    display: inline-block;
+.menu_barbie {
+    background-color: #ff69b4; 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.souumaprincesa{
+.menu_1 h2 {
+    position: relative;
+    top: 10px;
+    bottom: 55px;
+    left: 10px;
+    text-transform: uppercase;
+    color: #ffffff; 
+}
+
+.menu_1 h3 {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    bottom: 40px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #ffffff;; 
+}
+
+.menu_1 p {
+    position: relative;
+    top: 40px;
+    font-size: 24px;
+    margin: 1%;
+    color: #ffffff;
+}
+
+.menu_2 {
+    padding-top: 125px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: #ff69b4; 
+}
+
+.souumaprincesa {
     display: inline-block;
     position: relative;
     left: 70%;
+    color: #00e5ff; 
 }
-
 
 #barbie {
     position: static;
-    width: 400px;
+    width: 600px;
     height: 100%;
+    border: 3px dashed #ffff00;
 }
