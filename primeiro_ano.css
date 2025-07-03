@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    background-color: rgb(132, 132, 132);
+}
+
+header{
+    padding: 40px;
+    background-color: black;
+    border-bottom: 5px dotted;
+    border-color: rgb(238, 74, 74);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+    font-family: "Times New Roman";
+}
