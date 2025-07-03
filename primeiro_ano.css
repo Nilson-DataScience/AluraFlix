@@ -14,7 +14,7 @@ section{
     padding-left: 80px;
     display: flex;
     justify-content:center;
-    gap: 400px;
+    gap: 10%;
     
 }
 
@@ -26,4 +26,30 @@ h1{
 p{
     font-size: 40px;
     font-family: "Times New Roman";
+    
+}
+
+.texto-resumo{
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+.video{
+    margin-right: 3%;
+    border: 15px solid;
+    box-sizing: border-box;
+}
+
+.video iframe{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    color: aliceblue;
+    margin-top: 5%;
+    padding: 55px;
+    background-color: black;
+    border-top: 5px dotted;
+    border-color: rgb(238, 74, 74);
 }
