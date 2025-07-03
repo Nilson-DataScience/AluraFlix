@@ -9,6 +9,14 @@ header{
     border-bottom: 5px dotted;
     border-color: rgb(238, 74, 74);
 }
+section{
+    padding-top: 80px;
+    padding-left: 80px;
+    display: flex;
+    justify-content:center;
+    gap: 400px;
+    
+}
 
 h1{
     color: white;
